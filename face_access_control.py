@@ -19,7 +19,7 @@ from time import time, sleep
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 
 # === Imgur Config ===
-IMGUR_CLIENT_ID = 'cc71a5b975958d0'  # Replace this!
+IMGUR_CLIENT_ID = 'cc71a5b975*****'  # Replace this with your own Imgur ID!
 
 # === Internet Mode & Pending Files ===
 ONLINE_MODE = False
@@ -122,12 +122,12 @@ def upload_to_imgur(image_path, alert_msg=None):
         return "Image upload skipped (error)"
 
 # === CallMeBot WhatsApp Config ===
-CALLMEBOT_PHONE = '233257269689'
-CALLMEBOT_API_KEY = '9626404'
+CALLMEBOT_PHONE = '23325726****'     # Replace this with your own phone number!
+CALLMEBOT_API_KEY = '9626***'     # Replace this with your own CallMeBot API Key!
 
 # === Telegram Config ===
-TELEGRAM_BOT_TOKEN = '7563143642:AAHBfMuwwUYgBueIG3JZ2A-HcFmkAD2QyUo'
-TELEGRAM_CHAT_ID = '754065094'
+TELEGRAM_BOT_TOKEN = '7563143642:AAHBfMuwwUYgBueIG3JZ2A-HcFmkAD*****'     # Replace this with your own Telegram Bot Token!
+TELEGRAM_CHAT_ID = '75406****'    # Replace this with your own Telegram Chat ID!
 
 # === Face Alignment Setup ===
 mp_face_mesh = mp.solutions.face_mesh
