@@ -122,7 +122,7 @@ def upload_to_imgur(image_path, alert_msg=None):
         return "Image upload skipped (error)"
 
 # === CallMeBot WhatsApp Config ===
-CALLMEBOT_PHONE = '23325726****'     # Replace this with your own phone number!
+CALLMEBOT_PHONE = '23325726****'     # Replace this with your own WhatsApp phone number!
 CALLMEBOT_API_KEY = '9626***'     # Replace this with your own CallMeBot API Key!
 
 # === Telegram Config ===
